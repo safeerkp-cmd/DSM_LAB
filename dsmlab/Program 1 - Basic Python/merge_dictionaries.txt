@@ -1,0 +1,6 @@
+# Merge two dictionaries
+first_dictionary = {"name": "Alice", "age": 20}
+second_dictionary = {"course": "Data Science", "city": "Delhi"}
+
+merged_dictionary = {**first_dictionary, **second_dictionary}
+print("Merged dictionary:", merged_dictionary)

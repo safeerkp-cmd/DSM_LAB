@@ -1,0 +1,10 @@
+import pandas as pd
+
+data = [
+    [1, "Safeer"],
+    [2, "Noufa"],
+    [3, "Rahul"],
+]
+
+df = pd.DataFrame(data, columns=["Number", "Name"])
+print(df)

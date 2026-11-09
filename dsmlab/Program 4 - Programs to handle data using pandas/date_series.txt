@@ -1,0 +1,4 @@
+import pandas as pd
+
+dates = pd.date_range(start="2024-11-20", end="2024-11-24")
+print(dates)

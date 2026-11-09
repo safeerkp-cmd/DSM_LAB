@@ -1,0 +1,10 @@
+# Boolean operations
+first_value = True
+second_value = False
+
+print("AND:", first_value and second_value)
+print("OR:", first_value or second_value)
+print("NOT first value:", not first_value)
+print("NOT second value:", not second_value)
+print("First value == second value:", first_value == second_value)
+print("First value != second value:", first_value != second_value)

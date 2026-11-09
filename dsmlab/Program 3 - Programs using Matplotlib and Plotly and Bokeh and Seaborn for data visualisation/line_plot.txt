@@ -1,0 +1,11 @@
+import matplotlib.pyplot as plt
+
+x = [1, 2, 6, 18]
+y = [3, 10, 12, 20]
+
+# Red dotted line with red point markers.
+plt.plot(x, y, "r:o")
+plt.title("Line Plot")
+plt.xlabel("X values")
+plt.ylabel("Y values")
+plt.show()

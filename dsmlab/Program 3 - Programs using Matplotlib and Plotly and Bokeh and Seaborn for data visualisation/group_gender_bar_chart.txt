@@ -1,0 +1,17 @@
+import matplotlib.pyplot as plt
+
+groups = ["A", "B", "C", "D", "E"]
+men = [22, 30, 35, 35, 26]
+women = [25, 32, 30, 35, 29]
+
+x = range(len(groups))
+width = 0.4
+
+plt.bar([i - width / 2 for i in x], men, width=width, label="Men")
+plt.bar([i + width / 2 for i in x], women, width=width, label="Women")
+plt.xticks(list(x), groups)
+plt.xlabel("Group")
+plt.ylabel("Score")
+plt.title("Scores by Group and Gender")
+plt.legend()
+plt.show()

@@ -1,0 +1,7 @@
+# Find the largest of three numbers
+numbers = [
+    float(input("Enter number 1: ")),
+    float(input("Enter number 2: ")),
+    float(input("Enter number 3: ")),
+]
+print("Largest number:", max(numbers))

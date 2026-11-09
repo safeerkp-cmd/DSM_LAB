@@ -1,0 +1,14 @@
+# Matrix operations using vectorization
+matrix_a = np.array([[1, 2], [3, 4]])
+matrix_b = np.array([[5, 6], [7, 8]])
+
+print("Matrix A:\n", matrix_a)
+print("Matrix B:\n", matrix_b)
+print("Element-wise addition:\n", matrix_a + matrix_b)
+print("Element-wise subtraction:\n", matrix_a - matrix_b)
+print("Element-wise multiplication:\n", matrix_a * matrix_b)
+print("Matrix multiplication:\n", matrix_a @ matrix_b)
+print("Scalar multiplication:\n", matrix_a * 3)
+print("Transpose of A:\n", matrix_a.T)
+print("Sum of all elements in A:", np.sum(matrix_a))
+print("Mean of all elements in A:", np.mean(matrix_a))
